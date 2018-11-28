@@ -1,4 +1,4 @@
-$(document).ready(function(){
+ $(document).ready(function(){
 
 $("#nombre").focus();
 
@@ -9,7 +9,7 @@ $("button#accion").click(function(){
  const edad = $("#edad").val();
  const extra = $("#extra").val();
  const grupo = $("#grupo").val();
-
+ 
  if(nombre == ""){
   $('.mensaje_validacion').html("Escribe tu nombre");
   return;

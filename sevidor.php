@@ -49,6 +49,6 @@ try {
 		echo json_encode(["estatus" => "error", "respuesta" => $e->getMessage()]);
 		die();
 		exit();
-}
+} 
 
- ?>
+  ?>
